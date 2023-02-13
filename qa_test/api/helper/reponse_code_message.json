@@ -1,0 +1,43 @@
+{
+  "successOk": 200,
+  "successCreated": 201,
+  "successAccepted": 202,
+  "successNoContent": 204,
+  "failedMultipleChoices": {
+    "codeNumber": 300,
+    "codeMessage": "MultipleChoices"
+  },
+  "failedMovedPermanently": {
+    "codeNumber": 301,
+    "codeMessage": "MovedPermanently"
+  },
+  "failedFound": {
+    "codeNumber": 302,
+    "codeMessage": "Found"
+  },
+  "failedBadRequest": {
+    "codeNumber": 400,
+    "codeMessage": "BadRequest"
+  },
+  "failedUnauthorized": {
+    "codeNumber": 401,
+    "codeMessage": "UNAUTHORIZED"
+  },
+  "failedForbiddenInvalidToken": {
+    "codeNumber": 403,
+    "codeMessageForbidden": "Forbidden",
+    "codeMessageInvalidToken": "INVALID_TOKEN"
+  },
+  "failedNotFound": {
+    "codeNumber": 404,
+    "codeMessage": "NotFound"
+  },
+  "failedMethodNotAllowed": {
+    "codeNumber": 405,
+    "codeMessage": "MethodNotAllowed"
+  },
+  "failedInternalServerError": 500,
+  "unprocessableEntity": 422,
+  "expiredToken": 403,
+  "invalidToken": 403
+}
