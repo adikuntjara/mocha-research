@@ -63,6 +63,16 @@ POST {{url}}/suggestions/product
 
 ## Run the test
 
+###### Here are our default commands:
+
+```sh
+$ npm run test-api | to run all tests
+$ npm run test-api -- --grep @tag | to run test with specific tag
+$ npm run test-api -- --grep @skip --invert | to exclude @skip tag
+
+$ npm run test-reports | to generate mochawesome report
+```
+
 You can specify the command that you want to run from package.json file.
 
 ## Dummy Sample REST API
@@ -75,16 +85,6 @@ You can specify the command that you want to run from package.json file.
 ## Generate Schema JSON
 
 https://jsonschema.net
-
-###### Here are our default commands:
-
-```sh
-$ npm run test-api | to run all tests
-$ npm run test-api -- --grep @tag | to run test with specific tag
-$ npm run test-api -- --grep @skip --invert | to exclude @skip tag
-
-$ npm run test-reports | to generate mochawesome report
-```
 
 ## Reference
 
